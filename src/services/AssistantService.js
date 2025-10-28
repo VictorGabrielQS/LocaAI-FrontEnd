@@ -1,8 +1,6 @@
-
-
 export const perguntarAssistente = async (mensagem) => {
     try {
-        const response = await fetch('http://localhost:8080/api/assistant', {
+        const response = await fetch('https://locaai-backend-production.up.railway.app/api/assistant', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -14,13 +12,11 @@ export const perguntarAssistente = async (mensagem) => {
             throw new Error('Erro ao se comunicar com a API');
         }
 
-
         const data = await response.text();
         return data;
 
     } catch (error) {
         console.error(error);
-        return 'Ocorreu um erro.';
+        return 'Ocorreu um erro ao se comunicar com o assistente.';
     }
-
-}
+};
