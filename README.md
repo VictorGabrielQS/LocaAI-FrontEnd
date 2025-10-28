@@ -18,32 +18,6 @@ Frontend do projeto **LocaAI**, desenvolvido em **React**, responsável por forn
 - Axios
 - Railway / Vercel (Deploy)
 
-## 💻 Instalação e Execução Local
-
-1. Clone este repositório:
-```bash
-git clone https://github.com/VictorGabrielQS/LocaAI-FrontEnd.git
-cd LocaAI-FrontEnd
-````
-
-2. Instale as dependências:
-
-```bash
-npm install
-```
-
-3. Configure o endpoint do backend no arquivo `.env`:
-
-```
-VITE_API_URL=http://localhost:8080
-```
-
-4. Rode a aplicação:
-
-```bash
-npm run dev
-```
-
 A aplicação estará disponível em: `https://locaai-frontend-production.up.railway.app`
 
 ## 📦 Deploy
