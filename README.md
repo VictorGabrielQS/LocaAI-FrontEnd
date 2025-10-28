@@ -28,4 +28,3 @@ Hospedado no **Railway** (ou Vercel para frontend React).
 
 VICTOR License
 
-```
